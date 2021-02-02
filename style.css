@@ -1,0 +1,69 @@
+html,body {
+    height: 100%;
+  }
+  
+  .top {
+    background-color: green;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px
+    /* justify-content: center; */
+  }
+  .red {
+    background-color: red;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+  }
+  
+  .nav {
+    float: left;
+    width: 10%;
+    background: yellow;
+    padding: 20px;
+    height: 100%;
+    border: 2px solid red;
+  }
+          
+  .main {
+    float: left;
+    padding: 20px;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  .logo{
+      padding-right: 200px;
+  }
+  table, th, td {
+    border: 1px solid white;
+    height: 50px;
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
+  }
+  th{
+      background-color: green;
+  }
+  td{
+      background-color: #f1ffa3;
+  }
+  table{
+    margin-top: 150px;
+    width: 100%;
+
+  }
